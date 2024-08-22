@@ -20,7 +20,7 @@ function calcularNivel(vitorias, derrotas) {
       nivel = "Diamante"
     } else if (vitorias >= 91 && vitorias <= 100) {
       nivel = "Lendário"
-    } else if (vitorias >= 101) {
+    } else {
       nivel = "Imortal"
     }
 
